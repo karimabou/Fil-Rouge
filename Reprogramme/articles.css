@@ -1,0 +1,71 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  color: #244858;
+  
+}
+.navbar{
+background-color: #244858;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+  
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+  
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 15rem;
+}
+.carousel-item > img {
+  
+  width: 30rem;
+  height: 20rem;
+  background-color:  #244858;
+
+  
+    }
+
+.carousel-inner{
+  text-align: center;
+  background-color:  #244858;
+}
+
+    /* Pagination */
+.blog-pagination {
+    margin-bottom: 4rem;
+  }
+  .blog-pagination > .btn {
+    border-radius: 2rem;
+  }
+  
+  /*
+   * Blog posts
+   */
+  .blog-post {
+    margin-bottom: 4rem;
+  }
+  .blog-post-title {
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+  }
+  .blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #999;
+  }
+  
